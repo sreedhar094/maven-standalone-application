@@ -32,6 +32,16 @@
 		</dependency>
 
 	</dependencies>
+	<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://13.232.18.86:8081/repository/sree-maven-release/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://13.232.18.86:8081/repository/sree-maven-snapshot/</url>
+  </snapshotRepository>
+</distributionManagement>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
