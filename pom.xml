@@ -35,11 +35,11 @@
 	<distributionManagement>
   <repository>
     <id>releases</id>
-    <url>http://13.233.13.226:8081/repository/sree-maven-release/</url>
+    <url>http://13.233.13.226:8081/repository/sreenadh-maven-release//</url>
   </repository>
   <snapshotRepository>
     <id>snapshots</id>
-    <url>http://13.233.13.226:8081/repository/sree-maven-snapshot/</url>
+    <url>http://13.233.13.226:8081/repository/sreenadh-maven-snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
 
